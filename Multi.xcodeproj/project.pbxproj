@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B326EE7B19D57C2000C5C8B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B326EE7E19D57C2000C5C8B3 /* Localizable.strings */; };
+		B326EE7C19D57C2000C5C8B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B326EE7E19D57C2000C5C8B3 /* Localizable.strings */; };
 		B3439CCB19D5781D000B466F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3439CCA19D5781D000B466F /* Foundation.framework */; };
 		B3439CCD19D5781D000B466F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3439CCC19D5781D000B466F /* CoreGraphics.framework */; };
 		B3439CCF19D5781D000B466F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3439CCE19D5781D000B466F /* UIKit.framework */; };
@@ -19,6 +21,14 @@
 		B3439CE619D5781D000B466F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3439CCE19D5781D000B466F /* UIKit.framework */; };
 		B3439CEE19D5781D000B466F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3439CEC19D5781D000B466F /* InfoPlist.strings */; };
 		B3439CF019D5781D000B466F /* MultiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3439CEF19D5781D000B466F /* MultiTests.m */; };
+		B3439CFC19D5782C000B466F /* Viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B3439CFA19D5782C000B466F /* Viewcontroller.m */; };
+		B3439CFD19D5782C000B466F /* Viewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B3439CFA19D5782C000B466F /* Viewcontroller.m */; };
+		B3439CFE19D5782C000B466F /* Viewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3439CFB19D5782C000B466F /* Viewcontroller.xib */; };
+		B3439CFF19D5782C000B466F /* Viewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3439CFB19D5782C000B466F /* Viewcontroller.xib */; };
+		B3B36B4D19E5173000DF0B7C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B36B4B19E5173000DF0B7C /* ViewController2.m */; };
+		B3B36B4E19E5173000DF0B7C /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B36B4B19E5173000DF0B7C /* ViewController2.m */; };
+		B3B36B4F19E5173000DF0B7C /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B36B4C19E5173000DF0B7C /* ViewController2.xib */; };
+		B3B36B5019E5173000DF0B7C /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B36B4C19E5173000DF0B7C /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B326EE7D19D57C2000C5C8B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B326EE7F19D57C2500C5C8B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B3439CC719D5781D000B466F /* Multi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3439CCA19D5781D000B466F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3439CCC19D5781D000B466F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,14 @@
 		B3439CEB19D5781D000B466F /* MultiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTests-Info.plist"; sourceTree = "<group>"; };
 		B3439CED19D5781D000B466F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3439CEF19D5781D000B466F /* MultiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTests.m; sourceTree = "<group>"; };
+		B3439CF919D5782C000B466F /* Viewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viewcontroller.h; sourceTree = "<group>"; };
+		B3439CFA19D5782C000B466F /* Viewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viewcontroller.m; sourceTree = "<group>"; };
+		B3439CFB19D5782C000B466F /* Viewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Viewcontroller.xib; sourceTree = "<group>"; };
+		B3439D0319D57A75000B466F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3439D0419D57A75000B466F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B36B4A19E5173000DF0B7C /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		B3B36B4B19E5173000DF0B7C /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		B3B36B4C19E5173000DF0B7C /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,9 @@
 		B3439CBE19D5781C000B466F = {
 			isa = PBXGroup;
 			children = (
+				B3B36B4A19E5173000DF0B7C /* ViewController2.h */,
+				B3B36B4B19E5173000DF0B7C /* ViewController2.m */,
+				B3B36B4C19E5173000DF0B7C /* ViewController2.xib */,
 				B3439CD019D5781D000B466F /* Multi */,
 				B3439CE919D5781D000B466F /* MultiTests */,
 				B3439CC919D5781D000B466F /* Frameworks */,
@@ -109,8 +132,12 @@
 			children = (
 				B3439CD919D5781D000B466F /* FBCDAppDelegate.h */,
 				B3439CDA19D5781D000B466F /* FBCDAppDelegate.m */,
+				B3439CF919D5782C000B466F /* Viewcontroller.h */,
+				B3439CFA19D5782C000B466F /* Viewcontroller.m */,
+				B3439CFB19D5782C000B466F /* Viewcontroller.xib */,
 				B3439CDC19D5781D000B466F /* Images.xcassets */,
 				B3439CD119D5781D000B466F /* Supporting Files */,
+				B326EE7E19D57C2000C5C8B3 /* Localizable.strings */,
 			);
 			path = Multi;
 			sourceTree = "<group>";
@@ -203,6 +230,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = B3439CBE19D5781C000B466F;
 			productRefGroup = B3439CC819D5781D000B466F /* Products */;
@@ -220,7 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B36B4F19E5173000DF0B7C /* ViewController2.xib in Resources */,
 				B3439CD519D5781D000B466F /* InfoPlist.strings in Resources */,
+				B326EE7B19D57C2000C5C8B3 /* Localizable.strings in Resources */,
+				B3439CFE19D5782C000B466F /* Viewcontroller.xib in Resources */,
 				B3439CDD19D5781D000B466F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3439CFF19D5782C000B466F /* Viewcontroller.xib in Resources */,
+				B3B36B5019E5173000DF0B7C /* ViewController2.xib in Resources */,
+				B326EE7C19D57C2000C5C8B3 /* Localizable.strings in Resources */,
 				B3439CEE19D5781D000B466F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3439CD719D5781D000B466F /* main.m in Sources */,
+				B3B36B4D19E5173000DF0B7C /* ViewController2.m in Sources */,
 				B3439CDB19D5781D000B466F /* FBCDAppDelegate.m in Sources */,
+				B3439CFC19D5782C000B466F /* Viewcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3439CFD19D5782C000B466F /* Viewcontroller.m in Sources */,
 				B3439CF019D5781D000B466F /* MultiTests.m in Sources */,
+				B3B36B4E19E5173000DF0B7C /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +302,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B326EE7E19D57C2000C5C8B3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B326EE7D19D57C2000C5C8B3 /* en */,
+				B326EE7F19D57C2500C5C8B3 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B3439CD319D5781D000B466F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B3439CD419D5781D000B466F /* en */,
+				B3439D0319D57A75000B466F /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -276,6 +324,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3439CED19D5781D000B466F /* en */,
+				B3439D0419D57A75000B466F /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -315,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -347,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -438,6 +487,7 @@
 				B3439CF519D5781D000B466F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3439CF619D5781D000B466F /* Build configuration list for PBXNativeTarget "MultiTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +496,7 @@
 				B3439CF819D5781D000B466F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
